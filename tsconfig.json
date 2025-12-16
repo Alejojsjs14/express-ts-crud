@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "useDefineForClassFields": true,
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "#*": ["./src/*"]
+    },
+
+    // To work with JavaScript
+    "allowJs": true,
+    "checkJs": true,
+
+    // Generate only .d.ts files
+    "declaration": true,
+    "declarationDir": "types",
+    "emitDeclarationOnly": false,
+
+    // Output configuration
+    "outDir": "./dist",
+    "sourceMap": true,
+
+    // Type libraries
+    "lib": ["ESNext"],
+
+    // To support modern import/export
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+
+    // Linting and errors
+    "strict": true,
+    "noEmitOnError": true,
+    "noUnusedLocals": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "allowUnusedLabels": true
+  },
+  "include": ["src", "scripts", "test"],
+  "exclude": ["dist", "types"]
+}

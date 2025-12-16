@@ -1,0 +1,45 @@
+{
+  "name": "express-ts-crud",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Crud lab built with Express and TypeScript",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --enable-source-maps dist/app.js",
+    "dev": "tsx --require tsconfig-paths/register --watch --env-file-if-exists=.env src/app.ts",
+    "lint": "eslint . --ext .ts --fix",
+    "lint:strict": "eslint . --ext .ts --max-warnings=0",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alejojsjs14/express-ts-crud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alejojsjs14/express-ts-crud/issues"
+  },
+  "homepage": "https://github.com/Alejojsjs14/express-ts-crud#readme",
+  "imports": {
+    "#*": "./src/*"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.2.1",
+    "helmet": "^8.1.0",
+    "http-status": "^2.1.0",
+    "tsconfig-paths": "^4.2.0",
+    "winston": "^3.19.0",
+    "zod": "^4.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.0.2",
+    "eslint": "^9.39.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.15"
+  }
+}
