@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "nombre": "Aguacate Hass",
+    "precio": 5500,
+    "stock": 120,
+    "origen": "Rionegro",
+    "imagen": "https://ejemplo.com/imagenes/aguacate-hass.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Fresa",
+    "precio": 8000,
+    "stock": 45,
+    "origen": "La Ceja",
+    "imagen": "https://ejemplo.com/imagenes/fresa.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Mango Tommy",
+    "precio": 3500,
+    "stock": 200,
+    "origen": "Sopetrán",
+    "imagen": "https://ejemplo.com/imagenes/mango-tommy.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Mandarina Oneco",
+    "precio": 4200,
+    "stock": 80,
+    "origen": "Fredonia",
+    "imagen": "https://ejemplo.com/imagenes/mandarina.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Banano Criollo",
+    "precio": 2500,
+    "stock": 300,
+    "origen": "Medellín",
+    "imagen": "https://ejemplo.com/imagenes/banano.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Granadilla",
+    "precio": 6000,
+    "stock": 60,
+    "origen": "Urrao",
+    "imagen": "https://ejemplo.com/imagenes/granadilla.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Limón Tahití",
+    "precio": 3000,
+    "stock": 150,
+    "origen": "La Pintada",
+    "imagen": "https://ejemplo.com/imagenes/limon.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Mora de Castilla",
+    "precio": 4500,
+    "stock": 90,
+    "origen": "Guarne",
+    "imagen": "https://ejemplo.com/imagenes/mora.jpg"
+  }
+]

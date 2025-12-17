@@ -7,6 +7,7 @@ import helmet from "helmet";
 import { errorPath } from "#middlewares/path";
 import { cors } from "#middlewares/cors";
 import { errorHandler } from "#middlewares/error";
+import { router } from "#routes/index.route";
 
 const app = express();
 
@@ -14,6 +15,7 @@ app.use(urlencoded({ extended: true }));
 app.use(json());
 app.use(helmet());
 app.use(cors({origin: '*'}))
+app.use('/api/v1', router)
 app.use(errorHandler)
 
 /**
