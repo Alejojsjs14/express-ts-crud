@@ -10,3 +10,8 @@ updates:
     labels:
       - "dependencies"
       - "automated-pr"
+    groups:
+      devDependencies:
+        patterns:
+          - "*"
+        dependency-type: "development"
