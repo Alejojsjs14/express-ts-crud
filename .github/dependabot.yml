@@ -9,5 +9,4 @@ updates:
       - "Alejojsjs14"
     labels:
       - "dependencies"
-      - "typescript"
       - "automated-pr"
