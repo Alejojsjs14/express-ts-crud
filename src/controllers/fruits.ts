@@ -102,3 +102,9 @@ export const deleteFruit: RequestHandler = (req, res, next) => {
     return next(error);
   }
 };
+
+export const createAndGetByKey = <const T extends readonly string[]>
+  (...keys: string[]): Record<T[number], string> =>
+    Object.fromEntries(keys.map(key => [key, key])) as Record<T[number], string>
+
+const {} = createAndGetByKey('level', 'id') // CTRL + SPACE
